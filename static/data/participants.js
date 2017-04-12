@@ -1,5 +1,5 @@
 const participants = {
-  "email@email.com": "Allythy Rennan Medeiros de Souza",
+  "allythy@gmail.com": "Allythy Rennan Medeiros de Souza",
   "adsoncarvalho96@gmail.com": "Adson Carvalho de Gois",
   "alanhigor@gmail.com": "Alan Higor Morais Dantas",
   "alexolisilva@gmail.com": "Alex Oliveira da Silva",
@@ -23,7 +23,7 @@ const participants = {
   "fabierson@hotmail.com": "Fabierson Alexsandro Gomes Estevão",
   "fearlimasi@gmail.com": "Felipe Araújo de Lima",
   "felipe.vbpinheiro@gmail.com": "Felipe Vanderlei Brasil Pinheiro",
-  "fernandintodiniz@hotmail.com": "Fernando Lucas da Silva Diniz"
+  "fernandintodiniz@hotmail.com": "Fernando Lucas da Silva Diniz",
   "fran.bielly@hotmail.com": "Franciele Cunha da Fonseca",
   "ligiadearaujo66@hotmail.com": "Francisca Lígia de Araujo",
   "luci.anoseixas@hotmail.com": "Francisco Luciano Seixas dos Santos",
@@ -41,7 +41,7 @@ const participants = {
   "maiconw@gmail.com": "Maicon Wendhausen",
   "Marcusvcm_cei@hotmail.com": "Marcus Vinícius Chaves Moreira",
   "mariagilvania1212@hotmail.com": "Maria Gilvania de Souza Araujo",
-  "lidiane18@globomail.com": "Maria Lidiane Frutuoso de Oliveira"
+  "lidiane18@globomail.com": "Maria Lidiane Frutuoso de Oliveira",
   "zoxmarian@msn.com": "Mariano José da Silva Filho",
   "marydaurea123@gmail.com": "Maryanna Daurea de Medeiros",
   "matheusb994@gmail.com": "Matheus Barbosa de Farias",
@@ -63,6 +63,7 @@ const participants = {
   "yurisalesdacosta@gmail.com": "Yuri Henrique Sales da Costa",
   "allythyrenan@gmail.com": "Allythy Rennan Medeiros de Souza",
   "jotacisio@gmail.com": "Jotacisio Araújo Oliveira",
+
 }
 
 module.exports = participants;
