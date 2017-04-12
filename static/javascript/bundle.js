@@ -125,7 +125,7 @@
 	        _react2.default.createElement(
 	          'span',
 	          { className: 'animation-at-3' },
-	          ' Evento X '
+	          ' Flisol 2017'
 	        ),
 	        errorEl,
 	        _react2.default.createElement(_abInput2.default, {

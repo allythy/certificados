@@ -30,7 +30,7 @@ class Abduct extends React.Component {
 
     getIdleForm(errorEl) {
       return <div className={classNames('ab-header', {'ready': this.state.appReady} )} >
-                <span className="animation-at-3"> Evento X </span>
+                <span className="animation-at-3"> Flisol 2017</span>
                 {errorEl}
                 <AbInput
                   ref={(abInput) => {this._email = abInput}}
