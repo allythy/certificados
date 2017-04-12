@@ -1,5 +1,5 @@
 const participants = {
-  "email@email.com": "Jefferson Moura Amador de Oliveira",
+  "email@email.com": "Allythy Rennan Medeiros de Souza",
 }
 
 module.exports = participants;

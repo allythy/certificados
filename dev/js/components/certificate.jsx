@@ -20,7 +20,7 @@ class Certificate extends React.Component {
 
     getBase(callback) {
       let image = document.createElement('img');
-      image.src = 'static/images/base.jpg';
+      image.src = 'static/images/base.png';
       image.onload = callback.bind(this, image);
     }
     drawImage(context, image) {
@@ -33,15 +33,15 @@ class Certificate extends React.Component {
       context.drawImage(image, paddingLeft, paddindTop, width, height);
     }
     drawName(context) {
-      let hours = '6 horas';
+      //let hours = '6 horas';
       context.font = '116px product-sans';
-      context.fillStyle = '#fff';
+      context.fillStyle = '#000';
       let textSize = context.measureText(this.name);
-      let xPos = (this.width - textSize.width - 100) / 2;
-      context.fillText(this.name, xPos, 930);
-      textSize = context.measureText(hours);
-      xPos = (this.width - textSize.width - 100) / 2;
-      context.fillText(hours, xPos, 1180);
+      let xPos = (this.width - textSize.width) / 2;
+      context.fillText(this.name, xPos, 945);
+      // textSize = context.measureText(hours);
+      // xPos = (this.width - textSize.width - 100) / 2;
+      // context.fillText(hours, xPos, 1180);
     }
     paint(context) {
 
